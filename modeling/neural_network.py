@@ -46,7 +46,7 @@ def training():
         ])
 
     model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
-    model.fit(feature_train, label_train, epochs=100, batch_size=512, validation_split=0.2, verbose=1)
+    model.fit(feature_train, label_train, epochs=100, batch_size=2048, validation_split=0.2, verbose=1)
 
     return model, feature_train, feature_test, label_train, label_test, encoder_label
 
