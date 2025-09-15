@@ -13,7 +13,7 @@ To request access, please contact: **nguyenbao1072004@gmail.com**
 Note: The dataset is provided **strictly for research purposes only** and must **not** be used for any commercial purposes.
 
 The level of data distribution in 3 layers: High, Medium, Low.
-![Confusion Matrix](figure/class_distribution.png)
+![Confusion Matrix](figure/class.png)
 ## How to train a model
 Install dependencies from **requirements.txt:**
 ```
