@@ -1,7 +1,7 @@
 # House Price Level Classification
 
 This project focuses on building a deep learning model to classify the **price levels of houses** in Vietnam.  
-The data is collected by **web scraping from [chotot.vn](https://www.chotot.vn/)** using Selenium, and then used to train a **Feed Forward Neural Network (FFNN)** with 4 layers. 
+The data is collected by **web scraping from [chotot.vn](https://www.chotot.vn/)** **and [batdongsan.com.vn](https://batdongsan.com.vn/)**  using Selenium, and then used to train a **Feed Forward Neural Network (FFNN)** with 4 layers. 
 The model performs classification on three classes representing price levels: High, Low, and Average.
 
 ---
